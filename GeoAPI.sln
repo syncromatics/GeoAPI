@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ADD926A0-1731-43C4-84F9-EF5B04B71A79}"
 EndProject
@@ -15,9 +15,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 		.travis.yml = .travis.yml
-		build.bat = build.bat
-		build.sh = build.sh
-		GeoAPI.nuspec = GeoAPI.nuspec
 		README.md = README.md
 		SharedAssemblyVersion.cs = SharedAssemblyVersion.cs
 	EndProjectSection
@@ -43,5 +40,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{39745112-2F69-44F3-9F9C-73BE02264E99} = {ADD926A0-1731-43C4-84F9-EF5B04B71A79}
 		{1214745F-03FE-471A-BB83-00D030A3C984} = {B253C30C-EB42-412F-9F0C-BE46167473E3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D0F0F09-E3EE-4B0D-AFFB-AB9270A6AFEA}
 	EndGlobalSection
 EndGlobal

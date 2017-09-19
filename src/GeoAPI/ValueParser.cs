@@ -29,19 +29,7 @@ namespace GeoAPI
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA1704:IdentifiersShouldBeSpelledCorrectly", MessageId = "s")]
         public static bool TryParse(string s, System.Globalization.NumberStyles style, IFormatProvider provider, out double result)
         {
-            bool retVal = false;
-#if HAS_SYSTEM_DOUBLE_TRYPARSE
-            retVal = double.TryParse(s, style, provider, out result);
-#else
-            try
-            {
-                result = double.Parse(s, style, provider);
-                retVal = true;
-            }
-            catch (FormatException) { result = 0; }
-            catch (InvalidCastException) { result = 0; }
-#endif
-            return retVal;
+            return double.TryParse(s, style, provider, out result);
         }
     }
 }

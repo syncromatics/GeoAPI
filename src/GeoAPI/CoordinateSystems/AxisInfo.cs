@@ -74,7 +74,7 @@ namespace GeoAPI.CoordinateSystems
 #elif HAS_SYSTEM_STRING_TOUPPER_CULTUREINFO
 				return String.Format("AXIS[\"{0}\", {1}]", Name, Orientation.ToString().ToUpper(CultureInfo.InvariantCulture));
 #else
-#error Must have at least one or the other.
+				return String.Format("AXIS[\"{0}\", {1}]", Name, Orientation.ToString().ToUpperInvariant());
 #endif
 			}
 		}
@@ -93,7 +93,7 @@ namespace GeoAPI.CoordinateSystems
 #elif HAS_SYSTEM_STRING_TOUPPER_CULTUREINFO
 					.ToUpper(CultureInfo.InvariantCulture));
 #else
-#error Must have at least one or the other.
+						.ToUpperInvariant());
 #endif
 			}
 		}
