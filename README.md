@@ -3,6 +3,8 @@ master:[![Travis](https://travis-ci.org/NetTopologySuite/GeoAPI.svg?branch=maste
 
 - GeoAPI: [![NuGet](https://img.shields.io/nuget/v/GeoAPI.svg?style=flat)](https://www.nuget.org/packages/GeoAPI/)  
 
+This is a fork to enable better netstandard support and packaging.
+
 # GeoAPI
 
 GeoAPI project provides a common framework based on OGC/ISO standards to improve interoperability among .NET GIS projects. GeoAPI is used mostly as a base for [NTS](https://github.com/NetTopologySuite/NetTopologySuite/)
