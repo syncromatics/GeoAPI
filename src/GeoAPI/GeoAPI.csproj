@@ -11,6 +11,6 @@
     <PackageIconUrl>https://raw.githubusercontent.com/NetTopologySuite/GeoAPI/develop/icon.png</PackageIconUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/NetTopologySuite/GeoAPI/master/GeoAPI/License.txt</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/NetTopologySuite/GeoAPI</PackageProjectUrl>
-    <PackageId>Syncromatics GeoAPI</PackageId>
+    <PackageId>Syncromatics.GeoAPI</PackageId>
   </PropertyGroup>
 </Project>
